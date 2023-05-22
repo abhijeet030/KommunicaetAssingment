@@ -3,7 +3,7 @@
 ## Assignment Approach Documentation
 
 ### Introduction
-This documentation provides an explanation of the approach taken to integrate communication in a sample app. The integration involved the use of Firebase and Kommunicate SDKs for authentication, storing user information, and enabling chat functionality. The app was built using SwiftUI and Swift Package Manager was used to manage dependencies.
+This documentation provides an explanation of the approach taken to integrate Kommunicate SDK in a sample app. The integration involved the use of Firebase and Kommunicate SDKs for authentication, storing user information, and enabling chat functionality. The app was built using SwiftUI and Swift Package Manager was used to manage dependencies.
 
 ### Registration Process
 During the registration process, the user is required to provide their name, email, phone number, and password. The following steps outline the registration process:
