@@ -50,14 +50,6 @@ When a user logs in using a different account, the following steps occur:
 3. User Registration:
    - Using the retrieved chatID, the user is registered again, ensuring access to their previous conversation threads.
 
-### Code and Demo
-The code for the assignment is stored in two locations for easy access:
-
-- GitHub Repository: [Insert GitHub link]
-- Google Drive: [Insert Google Drive link]
-
-In addition to the code, a demo video showcasing the functionality of the app is included for reference.
-
 ## Conclusion
 This documentation provides a comprehensive explanation of the approach taken to integrate communication in the sample app. The utilization of Firebase for authentication, Firestore for data storage, and SwiftUI for app development has enabled the creation of a seamless user experience.
 
