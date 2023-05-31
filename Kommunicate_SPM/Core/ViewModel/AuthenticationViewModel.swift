@@ -72,6 +72,7 @@ class AuthViewModel: ObservableObject {
             guard let uid = Auth.auth().currentUser?.uid else {return}
             try await Firestore.firestore().collection("Users").document(uid).delete()
             try await Auth.auth().currentUser?.delete()
+            logoutChat()
             self.userSession = nil
             self.currentUser = nil
         } catch{
